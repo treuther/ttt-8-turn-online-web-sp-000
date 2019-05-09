@@ -27,6 +27,7 @@ def move(array, index, value = "X")
 array[index] = value
 end
 
+<<<<<<< HEAD
 # get input
 # convert input to index
 # if index is valid
@@ -44,4 +45,9 @@ def turn(board)
   else
     turn(board)
   end
+=======
+def turn(board)
+  puts "Please enter 1-9:"
+  gets.user_index
+>>>>>>> 15fe61bad562fbf8f9538f90bafaec9a84d4ee3e
 end
